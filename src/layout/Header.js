@@ -8,11 +8,11 @@ export default function Header() {
     <div id="nav">
         <Link to="/">
           Home
-        </Link>
+        </Link> |
           
         <Link to="/about">
           About         
-        </Link>
+        </Link> |
 
         <Link to="/what">
           What          
