@@ -15,15 +15,21 @@ export default function Home() {
       
       </div>
 
-      <div id="page-titles">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="page-titles">
+      
+        <img src={logo} className="app-logo" alt="logo" />
+        
         <h1>Library. <span>Dark.</span></h1>
+        
         <h3>The Odin Project</h3>
         <h3>Front-End Framework Project: React Library</h3>
+      
       </div>
-      <div id="page-functions">
+      
+      <div className="page-functions">
         <button>Add New Book</button>
       </div>
+      
       <div id="page-cards">
         
       </div>
