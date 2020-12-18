@@ -4,11 +4,14 @@ import './Home.css'
 import Booklist from '../../components/Booklist'
 import logo from '../../assets/logo.svg'
 
-export default function Home() {
+export default function Home(props) {
+
+  const [showNewBookModal, setShowNewBookModal] = useState(false)
+
   return (
     <div id="home">
       <div className="modal-container">
-      
+       
       </div>
 
       <div className="modal-container">
@@ -22,7 +25,7 @@ export default function Home() {
         <h1>Library. <span>Dark.</span></h1>
         
         <h3>The Odin Project</h3>
-        <h3>Front-End Framework Project: React Library</h3>
+        <h3>Front-End Framework: React Library</h3>
       
       </div>
       

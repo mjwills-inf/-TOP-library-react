@@ -15,13 +15,17 @@ function App() {
 
   const [books, setBooks] = useState([])
 
-  useEffect(() => {
-    fetchBookData()
-  });
-
   const fetchBookData = () => {
     setBooks(bookData)
   }
+
+  const addBook = (newBook) => {
+    setBooks([...books, ...newBook])
+  }
+
+  useEffect(() => {
+    fetchBookData()
+  });
 
   return (
     <Router>

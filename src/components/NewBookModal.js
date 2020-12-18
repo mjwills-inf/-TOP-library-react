@@ -30,15 +30,20 @@ export default function NewBookModal() {
                   <select 
                     name="" 
                     id="">
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
+                      <option value="5">5</option>
+                      <option value="4">4</option>
+                      <option value="3">3</option>
+                      <option value="2">2</option>
+                      <option value="1">1</option>
                   </select>
                 </div>
               </div>
-
+              <button>
+                Submit
+              </button>
+              <button>
+                Cancel
+              </button>
             </form>
           </div>
         </div>
